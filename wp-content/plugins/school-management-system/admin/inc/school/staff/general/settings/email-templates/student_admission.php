@@ -1,0 +1,87 @@
+<?php
+defined( 'ABSPATH' ) || die();
+
+// Email Student Admission settings.
+$settings_email_student_admission = WLSM_M_Setting::get_settings_email_student_admission( $school_id );
+$email_student_admission_enable   = $settings_email_student_admission['enable'];
+$email_student_admission_subject  = $settings_email_student_admission['subject'];
+$email_student_admission_body     = $settings_email_student_admission['body'];
+
+$email_student_admission_placeholders = WLSM_Email::student_admission_placeholders();
+?>
+<button type="button" class="mt-2 btn btn-block btn-primary" data-toggle="collapse" data-target="#wlsm_email_student_admission_fields" aria-expanded="true" aria-controls="wlsm_email_student_admission_fields">
+	<?php esc_html_e( 'Student Admission Email Template', 'school-management-system' ); ?>
+</button>
+
+<div class="collapse border border-top-0 border-primary p-3" id="wlsm_email_student_admission_fields">
+
+	<div class="wlsm_email_template wlsm_email_student_admission">
+		<div class="row">
+			<div class="col-md-3">
+				<label for="wlsm_email_student_admission_enable" class="wlsm-font-bold">
+					<?php esc_html_e( 'Student Admission Email', 'school-management-system' ); ?>:
+				</label>
+			</div>
+			<div class="col-md-9">
+				<div class="form-group">
+					<label for="wlsm_email_student_admission_enable" class="wlsm-font-bold">
+						<input <?php checked( $email_student_admission_enable, true, true ); ?> type="checkbox" name="email_student_admission_enable" id="wlsm_email_student_admission_enable" value="1">
+						<?php esc_html_e( 'Enable', 'school-management-system' ); ?>
+					</label>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="wlsm_email_template wlsm_email_student_admission mb-3">
+		<div class="row">
+			<div class="col-md-12">
+				<span class="wlsm-font-bold text-dark"><?php esc_html_e( 'You can use the following variables:', 'school-management-system' ); ?></span>
+				<div class="row">
+					<?php foreach ( $email_student_admission_placeholders as $key => $value ) { ?>
+					<div class="col-sm-6 col-md-3 pb-1 pt-1 border">
+						<span class="wlsm-font-bold text-secondary"><?php echo esc_html( $value ); ?></span>
+						<br>
+						<span><?php echo esc_html( $key ); ?></span>
+					</div>
+					<?php } ?>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="wlsm_email_template wlsm_email_student_admission">
+		<div class="row">
+			<div class="col-md-3">
+				<label for="wlsm_email_student_admission_subject" class="wlsm-font-bold"><?php esc_html_e( 'Email Subject', 'school-management-system' ); ?>:</label>
+			</div>
+			<div class="col-md-9">
+				<div class="form-group">
+					<input name="email_student_admission_subject" type="text" id="wlsm_email_student_admission_subject" value="<?php echo esc_attr( $email_student_admission_subject ); ?>" class="form-control" placeholder="<?php esc_attr_e( 'Email Subject', 'school-management-system' ); ?>">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="wlsm_email_template wlsm_email_student_admission">
+		<div class="row">
+			<div class="col-md-3">
+				<label for="wlsm_email_student_admission_body" class="wlsm-font-bold"><?php esc_html_e( 'Email Body', 'school-management-system' ); ?>:</label>
+			</div>
+			<div class="col-md-9">
+				<div class="form-group">
+					<?php
+					$settings = array(
+						'media_buttons' => false,
+						'textarea_name' => 'email_student_admission_body',
+						'textarea_rows' => 10,
+						'wpautop'       => false,
+					);
+					wp_editor( wp_kses_post( stripslashes( $email_student_admission_body ) ), 'wlsm_email_student_admission_body', $settings );
+					?>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div>

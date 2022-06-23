@@ -1,0 +1,386 @@
+.wlsm input[type=number],
+.wlsm select {
+	height: unset;
+}
+
+.wlsm div.dataTables_wrapper div.dataTables_length select {
+	width: 100%;
+}
+
+.wlsm div.dataTables_wrapper div.dataTables_processing {
+	padding: 4px;
+}
+
+.wlsm div.dataTables_wrapper select {
+	height: calc(1.5em + .5rem + 2px);
+	line-height: unset;
+	padding: .25rem .5rem;
+}
+
+.wlsm .wlsm-important {
+	color: red;
+}
+
+.wlsm .wlsm-badge {
+	font-size: 95%;
+}
+
+.wlsm-h5 {
+	font-size: 1.24rem;
+}
+
+.wlsm .wlsm-remove-item {
+	cursor: pointer;
+	padding: 4px 5px;
+	font-size: 0.7rem;
+	border-radius: 50%;
+}
+
+.wlsm .wlsm-font-bold {
+	font-weight: 600;
+}
+
+.wlsm .wlsm-school-card {
+	color: #212121;
+	box-shadow: 0 2px 15px rgba(36, 37, 38, 0.1);
+	border-radius: 15px;
+}
+
+.wlsm .wlsm-school-card-link,
+.wlsm .wlsm-staff-school-card-link {
+	text-decoration: none;
+}
+
+.wlsm .wlsm-school-card-title {
+	font-weight: 600;
+	font-style: italic;
+	line-height: 1.33;
+}
+
+.wlsm .wlsm-school-card-light {
+	color: #656565;
+}
+
+.wlsm .wlsm-school-card-dark {
+	color: #444;
+}
+
+.wlsm .wlsm-school-card-border {
+	background-color: #007bff;
+	box-shadow: 0 4px 10px rgba(0, 123, 255, 0.4);
+}
+
+.wlsm .wlsm-school-card-border .wlsm-school-card-light {
+	color: #efefef;
+}
+
+.wlsm .wlsm-school-card-border .wlsm-school-card-dark {
+	color: #fff;
+}
+
+.wlsm .wlsm-school-card-link:hover .wlsm-school-card,
+.wlsm .wlsm-staff-school-card-link:hover .wlsm-school-card {
+	background-color: #007bff;
+	box-shadow: 0 4px 10px rgba(0, 123, 255, 0.4);
+}
+
+.wlsm .wlsm-school-card-link:hover .wlsm-school-card-dark,
+.wlsm .wlsm-staff-school-card-link:hover .wlsm-school-card-dark {
+	color: #fff;
+}
+
+.wlsm .wlsm-school-card-link:hover .wlsm-school-card-light,
+.wlsm .wlsm-staff-school-card-link:hover .wlsm-school-card-light {
+	color: #efefef;
+}
+
+.wlsm .wlsm-assign-new-user {
+	display: none;
+}
+
+.wlsm .wlsm-school-admin-existing-user {
+	display: none;
+}
+
+.wlsm .wlsm_user_current_session_block label {
+	margin-bottom: 0;
+}
+
+.wlsm #wlsm_user_current_session {
+	padding: 2px 24px 2px 14px;
+	border-radius: 15px;
+}
+
+.wlsm .wlsm_text_secondary {
+	color: #656565;
+}
+
+.wlsm .wlsm-font-large {
+	font-size: 1.05em;
+}
+
+.wlsm .wlsm-section-heading-block {
+	background-color: #007bff;
+	color: #fff;
+	padding: .3rem .5rem;
+	margin-top: 1.4rem;
+	margin-bottom: 1.4rem;
+	border-radius: 10px;
+	box-shadow: 0 4px 10px rgba(0, 123, 255, 0.4);
+}
+
+.wlsm .wlsm-section-heading {
+	font-size: 1.4rem;
+	font-weight: 600;
+}
+
+.wlsm .wlsm-form-sub-heading {
+	font-size: 1.24rem;
+	padding-top: .2rem;
+	padding-bottom: .8rem;
+}
+
+.wlsm .wlsm-form-section {
+	padding: 1rem;
+	border: 1px solid rgba(0, 0, 0, .125);
+	border-collapse: collapse;
+}
+
+.wlsm .form-row>div {
+	padding: 0 .8rem;
+}
+
+.wlsm .wlsm-student-new-user,
+.wlsm .wlsm-student-existing-user,
+.wlsm .wlsm-staff-new-user,
+.wlsm .wlsm-staff-existing-user {
+	display: none;
+}
+
+.wlsm .wlsm-main-header {
+	border-radius: 15px;
+	background-color: #F5F6FF;
+	border: 0;
+}
+
+.wlsm .wlsm-main-header .card-header {
+	background-color: #F5F6FF;
+	border-bottom: 0;
+}
+
+.wlsm .wlsm-stats-blocks .col-md-4:nth-of-type(4n + 1) .wlsm-stats-block {
+	border-left: 12px solid #5867dd;
+}
+
+.wlsm .wlsm-stats-blocks .col-md-4:nth-of-type(4n + 2) .wlsm-stats-block {
+	border-left: 12px solid #0abb87;
+}
+
+.wlsm .wlsm-stats-blocks .col-md-4:nth-of-type(4n + 3) .wlsm-stats-block {
+	border-left: 12px solid #ffb822;
+}
+
+.wlsm .wlsm-stats-blocks .col-md-4:nth-of-type(4n + 4) .wlsm-stats-block {
+	border-left: 12px solid #f47070;
+}
+
+.wlsm .wlsm-stats-blocks .col-md-4:nth-of-type(4n + 1) .wlsm-stats-block .wlsm-stats-icon {
+	color: #5867dd;
+}
+
+.wlsm .wlsm-stats-blocks .col-md-4:nth-of-type(4n + 2) .wlsm-stats-block .wlsm-stats-icon {
+	color: #0abb87;
+}
+
+.wlsm .wlsm-stats-blocks .col-md-4:nth-of-type(4n + 3) .wlsm-stats-block .wlsm-stats-icon {
+	color: #ffb822;
+}
+
+.wlsm .wlsm-stats-blocks .col-md-4:nth-of-type(4n + 4) .wlsm-stats-block .wlsm-stats-icon {
+	color: #f47070;
+}
+
+.wlsm .wlsm-stats-block {
+	height: 6.25rem;
+	position: relative;
+	padding: 1rem;
+	margin-top: .8rem;
+	margin-bottom: .8rem;
+	color: #212121;
+	box-shadow: 0 2px 15px rgba(36, 37, 38, 0.1);
+	border-radius: 12px;
+}
+
+.wlsm .wlsm-stats-icon {
+	position: absolute;
+	opacity: .6;
+	font-size: 2rem;
+	top: 50%;
+	transform: translateY(-50%);
+	right: 1rem;
+}
+
+.wlsm .wlsm-stats-counter {
+	font-size: 1.3rem;
+	font-weight: 600;
+}
+
+.wlsm .wlsm-stats-label {
+	font-size: .9rem;
+	font-weight: 400;
+	color: #585858;
+}
+
+.wlsm .wlsm-stats-heading-block {
+	padding-top: .8rem;
+	padding-bottom: .8rem;
+}
+
+.wlsm .wlsm-stats-heading {
+	font-size: 1.2rem;
+	color: #444;
+}
+
+.wlsm .wlsm-stats-table th {
+	font-weight: 600;
+}
+
+.wlsm .wlsm-link {
+	color: #1172aa;
+	font-weight: 600;
+}
+
+.wlsm .wlsm-search-class-students {
+	display: none;
+}
+
+.wlsm .wlsm-students-block,
+.wlsm .wlsm-table-block {
+	padding: 1rem;
+	border: 1px solid rgba(0, 0, 0, .125);
+	border-collapse: collapse;
+}
+
+.wlsm .wlsm-photo {
+	width: 125px;
+	height: 160px;
+}
+
+.wlsm .wlsm-group {
+	padding: 1.5rem;
+	margin-bottom: 1rem;
+	box-shadow: 0 2px 15px rgba(36, 37, 38, 0.1);
+	border-radius: 15px;
+}
+
+.wlsm .wlsm-group-title {
+	display: block;
+	margin-top: .5rem;
+	margin-bottom: .5rem;
+	font-size: 1.6rem;
+	font-weight: 600;
+}
+
+.wlsm .wlsm-group-actions {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+.wlsm .wlsm-group-actions .btn {
+	margin-right: .3rem;
+	margin-top: .3rem;
+	margin-bottom: .3rem;
+}
+
+.wlsm .wlsm-multiple-student-block {
+	display: none;
+}
+
+.wlsm .wlsm-btn-xs {
+	padding: .2rem .25rem;
+	font-size: .5rem;
+}
+
+.wlsm-icon {
+	border-radius: 50%;
+	line-height: 1.1em;
+	width: 1.1em;
+	height: 1.1em;
+	text-align: center;
+	display: inline-block;
+}
+
+.wlsm-icon-red {
+	color: #fff;
+	background-color: #dc3545;
+}
+
+.wlsm .wlsm-collect-invoice-payment {
+	display: none;
+}
+
+.wlsm .wlsm-school-logo {
+	max-height: 200px;
+	max-width: 200px;
+}
+
+#wlsm-export-table-btn,
+.wlsm .wlsm_email_carrier,
+.wlsm .wlsm-notice-link {
+	display: none;
+}
+
+.wlsm-school-settings .btn-block {
+	font-size: 1.1em;
+	font-style: italic;
+}
+
+.wlsm-text-center {
+	text-align: center;
+}
+
+.wlsm-fee-box {
+	position: relative;
+	font-size: .9em;
+	border: 1px solid #c2c2c2;
+	padding: .8em;
+	background-color: #f2f4f7;
+	box-shadow: 1px 1px 2px 0px #c0c0c0;
+	cursor: move;
+}
+
+.wlsm-remove-fee-btn {
+	z-index: 2;
+	display: inline-block;
+	position: absolute;
+	font-size: .7em;
+	cursor: pointer;
+	right: 5px;
+	top: 5px;
+	border-radius: 50%;
+}
+
+.wlsm table .dashicons {
+	line-height: unset;
+	margin-left: 3px;
+	font-size: 20px;
+}
+
+.wlsm .row {
+	margin-right: -15px !important;
+	margin-left: -15px !important;
+}
+
+.wlsm-pro-banner {
+	/*max-width: 2200px;*/
+	margin: 2rem auto;
+	margin: 0;
+	/*padding: 0 1rem; */
+	padding-top: 18px;
+	padding-right: 15px;
+}
+
+.wlsm-pro-banner img {
+	max-width: 100%;
+	height: auto;
+}

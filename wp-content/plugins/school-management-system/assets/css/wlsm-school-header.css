@@ -1,0 +1,44 @@
+.wlsm-school-header {
+	margin-bottom: 8px;
+	padding-bottom: 7px;
+	border-bottom: 1px solid #ccc;
+}
+
+.wlsm-print-school-logo {
+	max-width: 100px !important;
+	max-height: 70px !important;
+}
+
+.wlsm-print-school-label {
+	font-size: 22px;
+	font-weight: 600;
+}
+
+.wlsm-print-school-contact {
+	font-size: 12px;
+}
+
+@media print {
+	.wlsm-school-header {
+		margin-bottom: 8pt;
+		padding-bottom: 7pt;
+	}
+
+	.wlsm-print-school-logo {
+		max-width: 100px !important;
+		max-height: 70px !important;
+		margin-top: 4pt;
+	}
+
+	.wlsm-print-school-label {
+		font-size: 22pt;
+	}
+
+	.wlsm-print-school-contact {
+		font-size: 12pt;
+	}
+
+	.wlsm-h5 {
+		font-size: 20pt;
+	}
+}

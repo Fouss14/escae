@@ -1,0 +1,303 @@
+.wlsm-font-bold {
+	font-weight: 600;
+}
+.text-secondary {
+	color: #6c757d !important;
+}
+.text-dark {
+	color: #343a40 !important;
+}
+.table-responsive {
+	display: table;
+	overflow: unset;
+}
+.w-100 {
+	width: 100%;
+}
+.text-right {
+	text-align: right;
+}
+.text-center {
+	text-align: center;
+}
+.float-right {
+    float: right !important;
+}
+
+.wlsm .row {
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin-right: -30px;
+	margin-left: -30px;
+}
+
+.wlsm .col,
+.wlsm .col-1,
+.wlsm .col-10,
+.wlsm .col-11,
+.wlsm .col-12,
+.wlsm .col-2,
+.wlsm .col-3,
+.wlsm .col-4,
+.wlsm .col-5,
+.wlsm .col-6,
+.wlsm .col-7,
+.wlsm .col-8,
+.wlsm .col-9,
+.wlsm .col-auto,
+.wlsm .col-lg,
+.wlsm .col-lg-1,
+.wlsm .col-lg-10,
+.wlsm .col-lg-11,
+.wlsm .col-lg-12,
+.wlsm .col-lg-2,
+.wlsm .col-lg-3,
+.wlsm .col-lg-4,
+.wlsm .col-lg-5,
+.wlsm .col-lg-6,
+.wlsm .col-lg-7,
+.wlsm .col-lg-8,
+.wlsm .col-lg-9,
+.wlsm .col-lg-auto,
+.wlsm .col-md,
+.wlsm .col-md-1,
+.wlsm .col-md-10,
+.wlsm .col-md-11,
+.wlsm .col-md-12,
+.wlsm .col-md-2,
+.wlsm .col-md-3,
+.wlsm .col-md-4,
+.wlsm .col-md-5,
+.wlsm .col-md-6,
+.wlsm .col-md-7,
+.wlsm .col-md-8,
+.wlsm .col-md-9,
+.wlsm .col-md-auto,
+.wlsm .col-sm,
+.wlsm .col-sm-1,
+.wlsm .col-sm-10,
+.wlsm .col-sm-11,
+.wlsm .col-sm-12,
+.wlsm .col-sm-2,
+.wlsm .col-sm-3,
+.wlsm .col-sm-4,
+.wlsm .col-sm-5,
+.wlsm .col-sm-6,
+.wlsm .col-sm-7,
+.wlsm .col-sm-8,
+.wlsm .col-sm-9,
+.wlsm .col-sm-auto,
+.wlsm .col-xl,
+.wlsm .col-xl-1,
+.wlsm .col-xl-10,
+.wlsm .col-xl-11,
+.wlsm .col-xl-12,
+.wlsm .col-xl-2,
+.wlsm .col-xl-3,
+.wlsm .col-xl-4,
+.wlsm .col-xl-5,
+.wlsm .col-xl-6,
+.wlsm .col-xl-7,
+.wlsm .col-xl-8,
+.wlsm .col-xl-9,
+.wlsm .col-xl-auto {
+	position: relative;
+	width: 100%;
+	min-height: 1px;
+	padding-right: 30px;
+	padding-left: 30px
+}
+
+.wlsm .col {
+	-ms-flex-preferred-size: 0;
+	flex-basis: 0;
+	-ms-flex-positive: 1;
+	flex-grow: 1;
+	max-width: 100%
+}
+
+.wlsm .col-auto {
+	-ms-flex: 0 0 auto;
+	flex: 0 0 auto;
+	width: auto;
+	max-width: none
+}
+
+.wlsm .col-1 {
+	-ms-flex: 0 0 8.333333%;
+	flex: 0 0 8.333333%;
+	max-width: 8.333333%
+}
+
+.wlsm .col-2 {
+	-ms-flex: 0 0 16.666667%;
+	flex: 0 0 16.666667%;
+	max-width: 16.666667%
+}
+
+.wlsm .col-3 {
+	-ms-flex: 0 0 25%;
+	flex: 0 0 25%;
+	max-width: 25%
+}
+
+.wlsm .col-4 {
+	-ms-flex: 0 0 33.333333%;
+	flex: 0 0 33.333333%;
+	max-width: 33.333333%
+}
+
+.wlsm .col-5 {
+	-ms-flex: 0 0 41.666667%;
+	flex: 0 0 41.666667%;
+	max-width: 41.666667%
+}
+
+.wlsm .col-6 {
+	-ms-flex: 0 0 50%;
+	flex: 0 0 50%;
+	max-width: 50%
+}
+
+.wlsm .col-7 {
+	-ms-flex: 0 0 58.333333%;
+	flex: 0 0 58.333333%;
+	max-width: 58.333333%
+}
+
+.wlsm .col-8 {
+	-ms-flex: 0 0 66.666667%;
+	flex: 0 0 66.666667%;
+	max-width: 66.666667%
+}
+
+.wlsm .col-9 {
+	-ms-flex: 0 0 75%;
+	flex: 0 0 75%;
+	max-width: 75%
+}
+
+.wlsm .col-10 {
+	-ms-flex: 0 0 83.333333%;
+	flex: 0 0 83.333333%;
+	max-width: 83.333333%
+}
+
+.wlsm .col-11 {
+	-ms-flex: 0 0 91.666667%;
+	flex: 0 0 91.666667%;
+	max-width: 91.666667%
+}
+
+.wlsm .col-12 {
+	-ms-flex: 0 0 100%;
+	flex: 0 0 100%;
+	max-width: 100%
+}
+
+/* Start School Header */
+.wlsm-school-header {
+	margin-bottom: 8px;
+	padding-bottom: 7px;
+	border-bottom: 1px solid #ccc;
+}
+.wlsm-print-school-logo {
+	max-width: 100px !important;
+	max-height: 70px !important;
+}
+.wlsm-print-school-label {
+	font-size: 22px;
+	font-weight: 600;
+}
+.wlsm-print-school-contact {
+	font-size: 12px;
+}
+/* End School Header */
+
+/* Start ID Card */
+.wlsm-print-id-card-container {
+	box-sizing: border-box;
+	border: 1px solid #000;
+	width: 450px;
+	height: 280px;
+	margin: 5px auto 0 auto;
+	padding: 6px;
+}
+.wlsm-print-id-card-container .wlsm-print-school-logo {
+	max-width: 60px !important;
+	max-height: 50px !important;
+}
+.wlsm-print-id-card-container .wlsm-print-school-label {
+	font-size: 14px;
+	font-weight: bold;
+}
+.wlsm-print-id-card-container .wlsm-print-school-contact {
+	font-size: 10px;
+}
+.wlsm-print-id-card-container .wlsm-school-header {
+	padding-top: 5px;
+	padding-bottom: 0;
+	margin-bottom: 0 !important;
+	border-bottom: 0;
+	height: 60px;
+}
+.wlsm-print-id-card-container .wlsm-school-header .col-9 {
+	text-align: left;
+	padding-left: 0;
+}
+.wlsm-print-id-card-container ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 4px 0;
+}
+.wlsm-print-id-card-container li {
+	font-size: 12px;
+	padding: 0;
+	margin: 4px 0;
+	border-bottom: 1px solid #ddd;
+}
+.wlsm-print-id-card-container .wlsm-print-id-card-photo-box {
+	box-sizing: border-box;
+	border: 1px solid #ddd;
+	width: 100px;
+	height: 125px;
+	margin-top: 8px;
+}
+.wlsm-print-id-card-container .wlsm-print-id-card-photo {
+	width: 100% !important;
+	height: 100% !important;
+}
+.wlsm-print-id-card-container .wlsm-print-id-card-details {
+	padding-right: 15px;
+	padding-left: 12px;
+}
+.wlsm-print-id-card-container .wlsm-print-id-card-details .col-9 {
+	padding-right: 10px;
+}
+.wlsm-print-id-card-container .wlsm-print-id-card-details .col-3 {
+	padding-left: 0;
+	margin-top: 0;
+}
+.wlsm-print-id-card-container .wlsm-print-id-card-authorized-by {
+	font-size: 10px;
+}
+.wlsm-print-id-card-container .wlsm-print-id-card-left {
+	position: relative;
+}
+.wlsm-print-id-card-container .wlsm-print-id-card-authorized-by {
+	position: absolute;
+	bottom: 0;
+	left: 10px;
+}
+/* End ID Card */
+
+/* Start Invoice Payment */
+.wlsm-print-invoice-payment-container {
+	margin: 5px auto 0 auto;
+}
+.wlsm-invoice-payment-heading {
+	font-size: 18px;
+}
+/* End Invoice Payment */
+

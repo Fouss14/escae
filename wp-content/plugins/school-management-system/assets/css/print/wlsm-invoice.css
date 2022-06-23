@@ -1,0 +1,37 @@
+@media print {
+	body {
+		font-size: 12pt;
+		margin: 0;
+		padding: 0;
+		color: #000;
+	}
+
+	.wlsm-font-bold {
+		font-weight: 600;
+	}
+
+	.text-secondary {
+		color: #6c757d !important;
+	}
+
+	.text-dark {
+		color: #343a40 !important;
+	}
+
+	.table-responsive {
+		display: table;
+		overflow: unset;
+	}
+
+	.wlsm-invoice-heading {
+		font-size: 18pt;
+	}
+
+	.wlsm-invoice-sub-heading {
+		font-size: 16pt;
+	}
+
+	@page {
+		size: A4 portrait;
+	}
+}

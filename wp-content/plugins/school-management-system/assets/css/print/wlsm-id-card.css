@@ -1,0 +1,117 @@
+@media print {
+	body {
+		font-size: 7pt;
+		margin: 0;
+		padding: 0;
+		color: #000;
+	}
+
+	.wlsm-font-bold {
+		font-weight: 600;
+	}
+
+	.text-secondary {
+		color: #6c757d !important;
+	}
+
+	.text-dark {
+		color: #343a40 !important;
+	}
+
+	.table-responsive {
+		display: table;
+		overflow: unset;
+	}
+
+	.wlsm-print-id-card-container {
+		box-sizing: border-box;
+		border: 1px solid #000;
+		width: 3.370in;
+		height: 2.125in;
+		margin: 0 auto;
+	}
+
+	.wlsm-print-id-card-container .wlsm-print-school-logo {
+		max-width: 35pt !important;
+		max-height: 30pt !important;
+	}
+
+	.wlsm-print-id-card-container .wlsm-print-school-label {
+		font-size: 9pt;
+	}
+
+	.wlsm-print-id-card-container .wlsm-print-school-contact {
+		font-size: 6pt;
+	}
+
+	.wlsm-print-id-card-container .wlsm-school-header {
+		padding-top: 3pt;
+		padding-bottom: 0;
+		margin-bottom: 0 !important;
+		border-bottom: 0;
+		height: 44pt;
+	}
+
+	.wlsm-print-id-card-container .wlsm-school-header .col-9 {
+		text-align: left;
+		padding-left: 0;
+	}
+
+	.wlsm-print-id-card-container ul {
+		list-style-type: none;
+		padding: 0;
+		margin: 2pt 0;
+	}
+
+	.wlsm-print-id-card-container li {
+		font-size: 7pt;
+		padding: 0;
+		margin: 2pt 0;
+		border-bottom: 1px solid #ddd;
+	}
+
+	.wlsm-print-id-card-container .wlsm-print-id-card-photo-box {
+		box-sizing: border-box;
+		border: 1px solid #ddd;
+		width: 20mm;
+		height: 25mm;
+		margin-top: 4pt;
+	}
+
+	.wlsm-print-id-card-container .wlsm-print-id-card-photo {
+		width: 100%;
+		height: 100%;
+	}
+
+	.wlsm-print-id-card-container .wlsm-print-id-card-details {
+		padding-right: 10pt;
+		padding-left: 8pt;
+	}
+
+	.wlsm-print-id-card-container .wlsm-print-id-card-details .col-9 {
+		padding-right: 5pt;
+	}
+
+	.wlsm-print-id-card-container .wlsm-print-id-card-details .col-3 {
+		padding-left: 0;
+		margin-top: 0;
+	}
+
+	.wlsm-print-id-card-container .wlsm-print-id-card-authorized-by {
+		font-size: 6pt;
+	}
+
+	.wlsm-print-id-card-container .wlsm-print-id-card-left {
+		position: relative;
+	}
+
+	.wlsm-print-id-card-container .wlsm-print-id-card-authorized-by {
+		position: absolute;
+		bottom: 0;
+		left: 10pt;
+	}
+
+	@page {
+		size: A4 portrait;
+	}
+}
